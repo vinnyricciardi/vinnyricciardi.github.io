@@ -1,0 +1,163 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Vinny Ricciardi",
+  "home_page_url": "https://myurl.com/",
+  "feed_url": "https://example.com/feed/feed.json",
+  "description": "Data Scientist",
+  "author": {
+    "name": "Vinny Ricciardi",
+    "url": ""
+  },
+  "items": [{
+      "id": "https://myurl.com/posts/covid_testing/",
+      "url": "https://myurl.com/posts/covid_testing/",
+      "title": "COVID-19. Testing for all or testing for some? A town’s key lesson in testing everyone for coronavirus",
+      "content_html": "",
+      "date_published": "2020-04-29T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/tradeoffs_agsystems_pub/",
+      "url": "https://myurl.com/posts/tradeoffs_agsystems_pub/",
+      "title": "Trade-offs in the performance of alternative farming systems",
+      "content_html": "",
+      "date_published": "2019-10-09T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/water_subidies/",
+      "url": "https://myurl.com/posts/water_subidies/",
+      "title": "Water subsidies mostly benefit the wealthy",
+      "content_html": "",
+      "date_published": "2019-09-11T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/science_art_partnership_pub/",
+      "url": "https://myurl.com/posts/science_art_partnership_pub/",
+      "title": "Science–graphic art partnerships to increase research impact",
+      "content_html": "",
+      "date_published": "2019-08-06T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/aaas_scicom_blog/",
+      "url": "https://myurl.com/posts/aaas_scicom_blog/",
+      "title": "Scientists should be science communicators",
+      "content_html": "",
+      "date_published": "2019-04-12T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/RuLIS/",
+      "url": "https://myurl.com/posts/RuLIS/",
+      "title": "Data on 3 million farmers",
+      "content_html": "<blockquote>\n<blockquote>\n<p>&quot;The FAO Statistics Division, the World Bank and IFAD have joined forces to build <strong>RuLIS</strong>, as a tool to support policies for reducing rural poverty. <strong>Information on agricultural</strong> income and rural livelihoods is crucial for the formulation of evidence-based development policies&quot; (<a href=\"http://www.fao.org/in-action/rural-livelihoods-dataset-rulis\">RuLIS website</a>).</p>\n</blockquote>\n</blockquote>\n<p>The Rural Livelihood Information System (RuLIS) is a dataset of nationally representative surveys from 37 countries. There are around 280 variables and data is available at the micro-level (e.g., individual farmer responses). It will become open access later this year.</p>\n<p>This interactive app shows all the household variables available, for which countries they are available, and how many survey years for each variable. I am in collaboration with RuLIS to further explore how their dataset can help understand key dimensions of vulnerable farmers and their incomes - an effort to support achieving the <a href=\"http://www.fao.org/sustainable-development-goals/indicators\">Sustainable Development Goal 2.3</a>, &quot;doubling the income of small-scale farmers.&quot;</p>\n<p><br><br></p>\n<p><a target=\"_blank\" href=\"https://vinnyricciardi.shinyapps.io/fao_rulis/\"><img src=\"/img/w3images/rulis.png\" style=\"width:100%\"></a></p>\n<p><br><br></p>\n",
+      "date_published": "2019-02-27T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/mt_farming_pub/",
+      "url": "https://myurl.com/posts/mt_farming_pub/",
+      "title": "Adaptation action and research in glaciated mountain systems. Are they enough to meet the challenge of climate change?",
+      "content_html": "",
+      "date_published": "2019-01-01T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/landgrabs/",
+      "url": "https://myurl.com/posts/landgrabs/",
+      "title": "Use the news - Spotting the next land grab",
+      "content_html": "<p>This map shows news articles coded as land tenure or land reform from January 2013 to October 2018. Articles were queried using the amazing <a href=\"https://www.gdeltproject.org/\">GDELT</a> project, which streams news articles from over 100 countries every 15 minutes and codes them into events, actors, locations, and sentiments (e.g., the tone of the article). This map, made with Google BigQuery and CartoDB, is in beta to give a picture of what GDELT can do for the land grab monitoring community.</p>\n<p><br><br></p>\n<iframe width=\"100%\" height=\"700\" frameborder=\"0\" src=\"https://vinnyricciardi.carto.com/builder/7c08d15d-cb86-4f7b-818e-151acc0ed4a0/embed\" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>\n<p><br><br></p>\n",
+      "date_published": "2018-11-30T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/colours/",
+      "url": "https://myurl.com/posts/colours/",
+      "title": "Colours of Food Security",
+      "content_html": "<p>The <a href=\"https://www.colours-of-food-security.com/exhibition/a-cultivated-planet/\">Colours of Food Security</a> is a series of striking images that use colour and data-driven visualization of decades of scientific research  to paint a picture of the global food system today. These data have  enabled the undertaking of a broad range of policy analyses on the problems inherent in the way agriculture operates on a global scale.  They have been used by a range of scientists, governments, NGOs, and food activists, and are featured in a wide range of news outlets and  media, including National Geographic Magazine, The New York Times, and  The Economist. The research underlying this exhibit helps to inform decision-making and solutions towards a more sustainable future.</p>\n<p>This project was a large collaborative effort that I helped support. For full acknowledgements please visit the exhibit's <a href=\"https://www.colours-of-food-security.com/about/\">about</a> page.</p>\n<p><br><br></p>\n<p><a target=\"_blank\" href=\"https://www.colours-of-food-security.com/exhibition/a-cultivated-planet/\"><img src=\"/img/w3images/colours.png\" style=\"width:100%\"></a></p>\n<p><br><br></p>\n",
+      "date_published": "2018-09-30T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/FieldSizePolicy/",
+      "url": "https://myurl.com/posts/FieldSizePolicy/",
+      "title": "A look at farms across country borders",
+      "content_html": "<p>I've been fascinated with looking at countries borders. Agricultural land-use polices, a countries natural resources access, and/or its connection to  international markets can drastically affect the size of a field. Here is a little Arc Story Map I made to highlight a few interesting border regions.</p>\n<iframe width=\"100%\" height=\"800px\" src=\"https://www.arcgis.com/apps/Cascade/index.html?appid=0dd3b0190bbc4d6d86e2ef56219f3c15\" frameborder=\"0\" scrolling=\"yes\"></iframe>\n<br>\n<br>",
+      "date_published": "2018-09-27T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/gfs_smallfarms_data_pub/",
+      "url": "https://myurl.com/posts/gfs_smallfarms_data_pub/",
+      "title": "An open-access dataset of crop production by farm size from agricultural censuses and surveys",
+      "content_html": "",
+      "date_published": "2018-09-01T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/Global_production/",
+      "url": "https://myurl.com/posts/Global_production/",
+      "title": "Can small farms feed the world?",
+      "content_html": "<p>There has been a zombie statistic floating around for the last 10 years: small farms grow 70-80% of the world's food. There was little transparency on the methods behind this statistic, yet major news outlets, NGOs, and multilateral agencies were quoting it to garner support for small farms. I led a project to look into this stat and found farms under 2 ha in size grow around 30%, which is still an <a href=\"https://medium.com/the-nature-of-food/small-farms-grow-a-large-portion-of-the-worlds-food-59ed07019a9\">impressive figure!</a></p>\n<p>Explore our new dataset on how much food is produced by differently sized farms. For each of the 55 countries, we found nationally  representative surveys and censuses that asked farmers how much of each  crop they produced. Using this information, we calculated how much total crop production (in kilocalories) each farm size produced. Because  different types of crops are allocated towards human food, animal feed,  processed non-food goods, seed for planting, or are wasted during  storage and transportation, we then worked out how each farm size  allocated their production. All together, our dataset has &gt; 150 crops from 55 countries. Click each tab to find out how much food, feed,  processed goods, seed, or waste small farms are producing and how much  land they're using compared to larger farms - and check out how crop  diversity differs across farm sizes.</p>\n<p><br><br></p>\n<p>For more details <a href=\"https://doi.org/10.1016/j.gfs.2018.05.002\">check out our article</a> and the <a href=\"https://data.mendeley.com/datasets/tp63z6dz5g/1\">downloadable dataset</a> that contains sub-national information.</p>\n<p><br><br></p>\n<p>&lt;a target=_blank&quot; href=&quot;https://vinnyricciardi.github.io/global-farmsize-app/&quot;&gt;<img src=\"/img/w3images/global_smallholder_app.png\" style=\"width:100%\"></a></p>\n<br>\n[Fork our GitHub repo here!](https://github.com/vinnyricciardi/global-farmsize-app)\n<br><br>",
+      "date_published": "2018-06-08T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/gfs_smallfarms_pub/",
+      "url": "https://myurl.com/posts/gfs_smallfarms_pub/",
+      "title": "How much of our world’s food do smallholders produce?",
+      "content_html": "",
+      "date_published": "2018-06-01T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/MtnAdaptation/",
+      "url": "https://myurl.com/posts/MtnAdaptation/",
+      "title": "How does climate change affect people in the mountains?",
+      "content_html": "<p><a href=\"http://www.fao.org/docrep/019/i3480e/i3480e.pdf\">&quot;Mountain farming is family farming&quot;</a> and climate change is disrupting the lives of the 915 million people living in mountain areas.</p>\n<p>This <a href=\"https://mtn-adaptation.shinyapps.io/mcdowell_etal_2018/\">map</a> shows our recent effort to synthesize the scientific literature on how people in mountain regions are adapting. 170 articles documenting over 690  discrete adaptations are represented. Explore the map, links to the  literature, and the different types of methods used in this body of  literature. The underlying data and accompanying article can be found here (link to come):</p>\n<p>McDowell, G., Huggel, C., Frey, H., Wang, F., Cramer, R.,  Ricciardi, V. 2019. Adaptation action and research in glaciated  mountain systems: Are they enough to meet the challenge of climate  change? Global Environmental Change. 54: 19-30. (<a href=\"https://doi.org/10.1016/j.gloenvcha.2018.10.012\">Link</a>)</p>\n<p><br><br><br>\n<a target=\"_blank\" href=\"https://mtn-adaptation.shinyapps.io/mcdowell_etal_2018/\"><img src=\"/img/w3images/mtn_adaptation_app.png\" style=\"width:100%\"></a></p>\n<br>\n<p><a href=\"https://github.com/vinnyricciardi/mt-adaptation_McDowell_etal_2018\">Fork our GitHub repo here!</a></p>\n<p><br><br></p>\n",
+      "date_published": "2018-05-28T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/Smallholder/",
+      "url": "https://myurl.com/posts/Smallholder/",
+      "title": "Small farms grow the majority of the world&#39;s food",
+      "content_html": "<p>There has been a zombie statistic floating around for the last 10 years: small farms grow 70-80% of the world's food. There was little transparency on the methods behind this statistic, yet major news outlets, NGOs, and multilateral agencies were quoting it to garner support for small farms. I led a project to look into this stat and found farms under 2 ha in size grow around 30%, which is still an <a href=\"https://medium.com/the-nature-of-food/small-farms-grow-a-large-portion-of-the-worlds-food-59ed07019a9\">impressive figure!</a></p>\n<p>Explore our new dataset on how much food is produced by differently sized farms. For each of the 55 countries, we found nationally  representative surveys and censuses that asked farmers how much of each  crop they produced. Using this information, we calculated how much total crop production (in kilocalories) each farm size produced. Because  different types of crops are allocated towards human food, animal feed,  processed non-food goods, seed for planting, or are wasted during  storage and transportation, we then worked out how each farm size  allocated their production. All together, our dataset has &gt; 150 crops from 55 countries. Click each tab to find out how much food, feed,  processed goods, seed, or waste small farms are producing and how much  land they're using compared to larger farms - and check out how crop  diversity differs across farm sizes.</p>\n<p>For more details <a href=\"https://doi.org/10.1016/j.gfs.2018.05.002\">check out our article</a> and the <a href=\"https://data.mendeley.com/datasets/tp63z6dz5g/1\">downloadable dataset</a> that contains sub-national information.</p>\n<p>&lt;a target=_blank&quot; href=&quot;https://vinnyricciardi.github.io/global-farmsize-app/&quot;&gt;<img src=\"/img/w3images/global_smallholder_app.png\" style=\"width:100%\"></a></p>\n",
+      "date_published": "2017-12-02T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/markets_sweet_potato/",
+      "url": "https://myurl.com/posts/markets_sweet_potato/",
+      "title": "Food security sweet potato production and proximity to markets in northern Ghana",
+      "content_html": "",
+      "date_published": "2017-11-23T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/rev_smallfarm_cc/",
+      "url": "https://myurl.com/posts/rev_smallfarm_cc/",
+      "title": "Smallholder agriculture and climate change",
+      "content_html": "",
+      "date_published": "2017-10-01T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/cambodia_swot/",
+      "url": "https://myurl.com/posts/cambodia_swot/",
+      "title": "Capacity development in agricultural education and training in Cambodia. A SWOT analysis.",
+      "content_html": "",
+      "date_published": "2016-05-02T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/bu_situated_knowledge/",
+      "url": "https://myurl.com/posts/bu_situated_knowledge/",
+      "title": "Situated knowledge of pathogenic landscapes in Ghana. Understanding the emergence of Buruli ulcer through qualitative analysis",
+      "content_html": "",
+      "date_published": "2016-02-01T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/smallfarm_homophily/",
+      "url": "https://myurl.com/posts/smallfarm_homophily/",
+      "title": "Homophily as a Safety Net. Investigating when smallholder farmers decide to buy hybrid seed in northern Ghana",
+      "content_html": "",
+      "date_published": "2015-12-07T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/seed_networks/",
+      "url": "https://myurl.com/posts/seed_networks/",
+      "title": "Social seed networks. Identifying central farmers for equitable seed access",
+      "content_html": "",
+      "date_published": "2015-10-01T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/bu_landcover/",
+      "url": "https://myurl.com/posts/bu_landcover/",
+      "title": "Buruli ulcer disease and its association with land cover in southwestern Ghana",
+      "content_html": "",
+      "date_published": "2015-06-19T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/seedsystems_strength/",
+      "url": "https://myurl.com/posts/seedsystems_strength/",
+      "title": "Strengthening informal seed systems to enhance food security in Southeast Asia",
+      "content_html": "",
+      "date_published": "2013-05-29T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/seedsystems_strateges/",
+      "url": "https://myurl.com/posts/seedsystems_strateges/",
+      "title": "Designing strategies and systems to identify preserve and promote underutilized indigenous crop species",
+      "content_html": "",
+      "date_published": "2013-03-01T00:00:00Z"
+    },{
+      "id": "https://myurl.com/posts/seedsystems_methods/",
+      "url": "https://myurl.com/posts/seedsystems_methods/",
+      "title": "Methodologies for strengthening informal indigenous vegetable seed systems in Northern Thailand and Cambodia",
+      "content_html": "",
+      "date_published": "2012-09-01T00:00:00Z"
+    }
+  ]
+}
