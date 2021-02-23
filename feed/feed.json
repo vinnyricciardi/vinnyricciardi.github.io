@@ -9,12 +9,6 @@
     "url": ""
   },
   "items": [{
-      "id": "https://myurl.com/posts/premise_covid_survey/",
-      "url": "https://myurl.com/posts/premise_covid_survey/",
-      "title": "COVID-19 Global Impact Study",
-      "content_html": "",
-      "date_published": "2021-01-10T00:00:00Z"
-    },{
       "id": "https://myurl.com/posts/sdgatlas/",
       "url": "https://myurl.com/posts/sdgatlas/",
       "title": "The Atlas of Sustainable Development Goals (SDGs)",
