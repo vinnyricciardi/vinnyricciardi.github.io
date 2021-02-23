@@ -1,28 +1,12 @@
-# eleventy-base-blog
+Repo was cloned from [this 11ty template](https://github.com/jmschrack/Dark-Portfolio-Template-11tyeleventy-base-blog),
+with some minor tweaks from [this 11ty repo](https://github.com/11ty/eleventy-base-blog.git) that include the excellent how to guide pasted below:
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
-
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
-
-## Demos
-
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-* [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
-
-## Deploy this to your own site
-
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
-
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
-
-## Getting Started
+To run 
 
 ### 1. Clone this Repository
 
 ```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
+git clone https://https://github.com/vinnyricciardi/vinnyricciardi.github.io my-blog-name
 ```
 
 
