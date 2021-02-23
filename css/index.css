@@ -181,7 +181,7 @@ pre {
 
 
 /* Tags */
-.post-tag {
+.tag {
   display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
@@ -193,8 +193,8 @@ pre {
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
 }
-a[href].post-tag,
-a[href].post-tag:visited {
+a[href].tag,
+a[href].tag:visited {
   color: #fff;
 }
 
@@ -224,3 +224,4 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+

@@ -1,0 +1,22 @@
+#!/bin/bash
+while IFS="," read filename title description date blogtype url
+do
+
+    printf "\n--- n\
+    \ntitle: $title n\
+    \ndescription: $description n\
+    \ndate: $date n\
+    \ntags: n\
+    \n  - $blogtype n\
+    \nlayout: layouts /post.njk\
+    \nimage: /img/w3images/global_smallholder_app.png\
+    \nexternalurl: $url\
+    \n---" > "$filename.md"
+
+done < externalPubs.csv
+
+
+
+
+
+

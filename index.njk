@@ -1,15 +1,254 @@
 ---
 layout: layouts/home.njk
+fa-icon: 'fa-home'
 eleventyNavigation:
   key: Home
   order: 1
+  url: /#
 ---
 
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+ <h1 class="w3-jumbo">{{ metadata.title }}</h1>
+  <h2>{{ metadata.description }}</h2>
+  <img src="{{ 'img/w3images/avatar.png' | url }}" alt="boy" class="w3-image" width="300" height="1108">
 
-{% set postslist = collections.posts | head(-3) %}
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js">
+// init Masonry
+var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});
+
+</script>
+
+</header>
+
+
+<!-- About Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+    I am a data scientist at the World Bank. 
+    <br><br>
+    Equipped with a PhD in Resource Management & Environmental Studies from the University of British Columbia, I have over 10 yrs of applied research experience. Since my start as a field scientist collecting biodiversity data, I have compiled and managed global-scale databases, led analyses for a wide range of stakeholders, and published in high-impact academic journals. I also hold a masters in Geography from Penn State University.
+    <br><br>
+    Projects have focused on text-analysis, machine learning, spatial analysis, inferential statistics, network analyses, and meta-analyses. Well-versed in R (9 yrs) and Python (5 yrs) but like to tinker in JavaScript and learn new tools. I'm a proponent of open-source code and systems.
+    <br><br>
+    </p>
+    
+    <h2 class="w3-text-light-grey">My Skills</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row w3-center w3-padding-16 w3-section">
+      <div class="w3-third w3-section">
+        <i class="fa fa-area-chart fa-3x" aria-hidden="true"></i><br><br>
+        Inferential Statistics
+      </div>
+      <div class="w3-third w3-section">
+        <i class="fa fa-globe fa-3x" aria-hidden="true"></i><br><br>
+        Geospatial
+      </div>
+        <div class="w3-third w3-section">
+        <i class="fa fa-braille fa-3x" aria-hidden="true"></i><br><br>
+        Machine Learning
+      </div>
+      <div class="w3-third w3-section">
+        <i class="fa fa-file-text fa-3x" aria-hidden="true"></i><br><br>
+        Natural Language Processing
+      </div>
+      <div class="w3-third w3-section">
+        <i class="fa fa-crop fa-3x" aria-hidden="true"></i><br><br>
+        Computer Vision
+      </div>
+      <div class="w3-third w3-section">
+        <i class="fa fa-code fa-3x" aria-hidden="true"></i><br><br>
+        R / Python
+      </div>
+    </div>
+
+    <br>
+
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">7+</span><br>
+        Countries Worked In
+      </div>
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">20+</span><br>
+        <a target="_blank" href="https://scholar.google.com/citations?user=deu0ZjkAAAAJ&hl=en">Publications</a>
+      </div>
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">30+</span><br>
+        Speaking Engagements
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="window.open('{{ 'files/resume.pdf' | url}}')">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+
+<!-- Portfolio Section -->
+
+
+<style type="text/css">
+
+* { box-sizing: border-box; }
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+  border: 5px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.grid-item--width2 {
+  width: 66.67%
+}
+.grid-item--height2 {
+  height: 66.67%
+}
+
+@media (max-width: 575px) {
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+    margin-right: 50px; 
+  }
+  .grid-item--width2 {
+    width: 50%
+  }
+  .grid-item--height2 {
+    height: 50%
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
+  }
+  .grid-item--width2 {
+    width: 50%
+  }
+  .grid-item--height2 {
+    height: 50%
+  }
+}
+
+/* To change the amount of columns on larger devices, uncomment the code below */
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .grid-sizer,
+  .grid-item {
+    width: 33.333%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .grid-sizer,
+  .grid-item {
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .grid-sizer,
+  .grid-item {
+    width: 20%;
+  }
+} */
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+</style>
+
+<div class="w3-padding-64 w3-content" id="photos">
+  <h2 class="w3-text-light-grey">Recent Projects</h2>
+  <hr style="width:200px" class="w3-opacity">
+
+  <div class="container-fluid">
+    
+    <div class="grid">
+      <div class="grid-sizer"></div>
+      <div class="grid-item">
+        <a target="_blank" href="https://www.worldbank.org/en/publication/wdr2021"><img src="/img/w3images/wdr.png"/></a>
+      </div>
+      <div class="grid-item">
+        <a target="_blank" href="https://ceres2030.org/water-scarce-solutions/"><img src="/img/w3images/ceres.png"/></a>
+      </div>
+      <div class="grid-item">
+        <a target="_blank" href="https://vinnyricciardi.github.io/global-farmsize-app/"><img src="/img/w3images/global_smallholder_app.png"/></a>
+      </div>
+      <div class="grid-item">
+        <a target="_blank" href="https://www.nature.com/articles/s42003-019-0516-1"><img src="/img/w3images/smallfarm-infographic.png"/></a>
+      </div>
+      <div class="grid-item">
+        <a target="_blank" href="https://www.sesync.org/project/propose-a-pursuit/food-energy-water-interdependencies-of-the-global-agrarian-transition"><img src="/img/w3images/lsla.png"></a>
+      </div>
+      <div class="grid-item">
+        <a target="_blank" href="http://datatopics.worldbank.org/world-development-indicators/"><img src="/img/w3images/wdi.png"></a>
+      </div>
+    </div>
+    
+  </div> 
+</div>
+  <!-- End photo grid -->
+  <!-- End Portfolio Section -->
+
+<!-- Latest Posts Section -->
+<div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+  <h2 class="w3-text-light-grey">Latest Posts</h2>
+  <hr style="width:200px" class="w3-opacity">
+
+{% set postslist = collections.posts | head(-5) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p>More posts can be found in <a href="{{ '/posts/' | url }}" class="w3-hover-text-green">the archive</a>.</p>
+</div>
+<!-- Contact Section -->
+<div class="w3-padding-64 w3-content" id="contact">
+  <h2 class="w3-text-light-grey">Contact Me</h2>
+  <hr style="width:200px" class="w3-opacity">
+
+  <div class="w3-section">
+    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> VinnyRicciardi@gmail.com</p>
+    <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a target="_blanks" href="https://www.linkedin.com/in/vinnyr" class="w3-hover-text-green">LinkedIn</a> </p>
+    <p><i class="fa fa-twitter fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a target="_blanks" href="https://twitter.com/vinnyricciardi" class="w3-hover-text-green">Twitter</a> </p>
+  </div><br>
+  <p>Lets get in touch. Send me a message:</p>
+
+  <form action="/action_page.php" target="_blank">
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+    <p>
+      <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </p>
+  </form>
+<!-- End Contact Section -->
+</div>
+
+
