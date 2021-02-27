@@ -9,6 +9,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://myurl.com/posts/perusenews/",
+      "url": "https://myurl.com/posts/perusenews/",
+      "title": "Peruse the news",
+      "content_html": "<p>I've been playing with mining the news lately.</p>\n<p>GDELT is a fascinating news aggregator that aggregates news from 100+ countries every 15 minutes.</p>\n<p>Here is a small wrapper to their API I made for my own convienience (and to dabble more with JS). I call the site <a href=\"https://peruse-news.netlify.app/\">Peruse the News</a>.</p>\n<p>Feel free to copy and hack my <a href=\"https://github.com/vinnyricciardi/puruse_the_news\">code</a> for this site.</p>\n<iframe width=\"100%\" height=\"800px\" src=\"https://peruse-news.netlify.app/\" frameborder=\"0\" scrolling=\"yes\"></iframe>\n<br>\n<br>\n",
+      "date_published": "2021-02-27T00:00:00Z"
+    },{
       "id": "https://myurl.com/posts/sdgatlas/",
       "url": "https://myurl.com/posts/sdgatlas/",
       "title": "The Atlas of Sustainable Development Goals (SDGs)",
