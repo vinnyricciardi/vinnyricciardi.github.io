@@ -9,6 +9,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://myurl.com/posts/wdr2021/",
+      "url": "https://myurl.com/posts/wdr2021/",
+      "title": "World Development Report 2021 - Data for Better Lives",
+      "content_html": "<p>&quot;Repurposing and integrating public- and private-intent data can help provide real-time and finer-scale insights, fill data gaps, and overcome limitations associated with each data type.&quot;<br>\n<br><br><br>\nCheck out our chapter in the <a href=\"https://wdr2021.worldbank.org/stories/infinite-possibilities/\">World Bank's World Development Report</a> to learn more.</p>\n<p><br><br></p>\n",
+      "date_published": "2021-03-24T00:00:00Z"
+    },{
       "id": "https://myurl.com/posts/perusenews/",
       "url": "https://myurl.com/posts/perusenews/",
       "title": "Peruse the news",

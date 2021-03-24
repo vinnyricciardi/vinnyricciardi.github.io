@@ -5,12 +5,24 @@
 	
 	<link href="https://myurl.com/feed/feed.xml" rel="self"/>
 	<link href="https://myurl.com/"/>
-	<updated>2021-02-27T00:00:00Z</updated>
+	<updated>2021-03-24T00:00:00Z</updated>
 	<id>https://myurl.com/</id>
 	<author>
 		<name>Vinny Ricciardi</name>
 		<email>vinnricciardi@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>World Development Report 2021 - Data for Better Lives</title>
+		<link href="https://myurl.com/posts/wdr2021/"/>
+		<updated>2021-03-24T00:00:00Z</updated>
+		<id>https://myurl.com/posts/wdr2021/</id>
+		<content type="html">&lt;p&gt;&amp;quot;Repurposing and integrating public- and private-intent data can help provide real-time and finer-scale insights, fill data gaps, and overcome limitations associated with each data type.&amp;quot;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+Check out our chapter in the &lt;a href=&quot;https://wdr2021.worldbank.org/stories/infinite-possibilities/&quot;&gt;World Bank&#39;s World Development Report&lt;/a&gt; to learn more.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Peruse the news</title>
