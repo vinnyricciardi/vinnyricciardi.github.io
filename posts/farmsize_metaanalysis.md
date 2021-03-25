@@ -17,3 +17,5 @@ Check out our new paper at [Nature Sustainability](https://www.nature.com/articl
 <a href="/img/w3images/smallfarms_infographic.png" download>Download</a> our infographic showcasing our findings created in collaboration with the very talented [Eleanor Macchi](https://www.eleanormacchi.com/).
 
 <br><br>
+
+<img src="/img/w3images/smallfarms_infographic.png">
