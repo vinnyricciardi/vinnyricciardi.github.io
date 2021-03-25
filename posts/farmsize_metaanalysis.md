@@ -17,4 +17,4 @@ We found that smaller farms harbour more biodiversity and have higher yields.
 
 <br><br>
 
-<img src="/img/w3images/smallfarms_infographic.png" style="width: 80%; height: 80%">
+<img src="/img/w3images/smallfarms_infographic_web.png" style="width: 80%; height: 80%">
