@@ -9,11 +9,11 @@ image: /img/w3images/smallfarms_infographic.png
 ---
 
 Are small farms more sustainable? Check out our new article, where we synthesize the last 50 years of research. 
-<br>
+
 We found that smaller farms harbour more biodiversity and have higher yields.
-<br>
+
 Check out our new paper at [Nature Sustainability](https://www.nature.com/articles/s41893-021-00699-2) or for those of you who can't get past the paywall at [this link](rdcu.be/chtQv)
-<br>
+
 <a href="/img/w3images/smallfarms_infographic.png" download>Download</a> our infographic showcasing our findings created in collaboration with the very talented [Eleanor Macchi](https://www.eleanormacchi.com/).
 
 <br><br>
