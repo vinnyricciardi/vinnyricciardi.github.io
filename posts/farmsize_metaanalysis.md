@@ -12,9 +12,8 @@ Check out our new article ([here](https://www.nature.com/articles/s41893-021-006
 
 We found that smaller farms harbour more biodiversity and have higher yields.
 
-<a href="/img/w3images/smallfarms_infographic.png" download>Download</a> our infographic showcasing our findings created in collaboration with the very talented [Eleanor Macchi](https://www.eleanormacchi.com/)... 
-...or simply scroll down and discover more.
+Scroll down to explore an infographic showcasing our findings created in collaboration with the very talented [Eleanor Macchi](https://www.eleanormacchi.com/). Or <a href="/img/w3images/smallfarms_infographic.png" download>download it here</a>.
 
 <br><br>
-
-<img src="/img/w3images/smallfarms_infographic_web.png" style="width: 80%; height: 80%">
+<img src="/img/w3images/smallfarms_infographic.png" style="width: 80%; height: 80%">
+<br><br>
