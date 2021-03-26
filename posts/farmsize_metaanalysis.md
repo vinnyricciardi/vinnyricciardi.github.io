@@ -8,7 +8,7 @@ layout: layouts/post.njk
 image: /img/w3images/smallfarms_infographic.png
 ---
 
-Check out our new article ([here](https://www.nature.com/articles/s41893-021-00699-2) or [here](https://www.rdcu.be/chtQv)), where we synthesize the last 50 years of research. 
+Check out our new article (as a pdf [here](https://www.researchgate.net/publication/350400524_Higher_yields_and_more_biodiversity_on_smaller_farms), on Nature's website [here](https://www.nature.com/articles/s41893-021-00699-2), or at readcube [here](https://www.rdcu.be/chtQv)), where we synthesize the last 50 years of research. 
 
 We found that smaller farms harbour more biodiversity and have higher yields.
 
